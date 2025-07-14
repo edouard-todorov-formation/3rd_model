@@ -17,53 +17,61 @@
         </h1>
     </header>
 <!-- MAIN -->
-    <main>
-<!-- Exo 1 -->
-        <div class="articleFlexReduceForm articleBorder articlePadding3 articleBackground articleMarginBottom marginTop25Perc">
-            <div class="relativeBox flex relativPosition1">
+    <main class="positionStyleSheet">
+<!-- 1er exercice (absolute et relative) -->
+        <section class="relative containerHeight1">
+            <div class="relativeBigBox fontBold fontWhite">
                 relative
             </div>
-            <div class="absoluteBox flex absolutePosition1">
+            <div class="absoluteBox fontBold absolutePos1 absolute">
                 absolute
             </div>
-        </div>
-        <p class="positionPageFont">
-            1. Reproduisez ce positionnement avec les propriétés <strong>relative</strong> et <strong>absolute</strong>.
+        </section>
+        <p>
+            1. Reproduisez ce positionement avec les propriétés <strong>relative</strong> et <strong>absolute</strong>.
         </p>
-<!-- Exo 2 -->
-        <div class="articleFlexReduceForm articleBorder articlePadding3 articleBackground articleMarginBottom marginTop25Perc">
-            <div class="relativeBoxSmall flex">
+<!-- 2eme exercice absolute et relative dans 2 coins opposé -->
+        <section class="relative containerHeight2">
+            <div class="relativeSmallBox fontBold fontWhite">
                 relative
             </div>
-            <div class="absoluteBoxSmall flex">
+            <div class="absSmallBox1 fontBold absPos1 absolute">
                 abs1
             </div>
-            <div class="absolutePosition2 absoluteBoxSmall flex">
+            <div class="absSmallBox2 fontBold absPos2 absolute">
                 abs2
             </div>
-        </div>
-        <p class="positionPageFont">
-            2. Placer 2 éléments <strong>absolute</strong> dans deux coins opposés du conteneur.
+        </section>
+        <p>
+            2. Placez 2 éléments <strong>absolute</strong> dans deux coins opposé
         </p>
-<!-- Exo 3 -->
-        <div class="articleFlexReduceForm articleBorder articlePadding3 articleBackground articleMarginBottom marginTop25Perc">
-
-        </div>
-        <p class="positionPageFont">
-            3. Supperposez deux éléments avec <strong>z-index</strong> pour contrôler l'ordre d'affichage.
+<!-- "3eme exercice Z-index" -->
+        <section class="relative containerHeight1">
+                <div class="absoluteBox fontBold absolutePos3 absolute">
+                    absolute
+                </div>
+                <div class="relativeBigBox fontBold fontWhite">
+                    relative
+                </div>
+        </section>
+        <p>
+            3. Superposez deux éléments avec <strong>Z-index</strong> pour contrôler l'ordre d'affichage.
         </p>
-<!-- Exo 4 -->
-        <div class="articleFlexReduceForm articleBorder articlePadding3 articleBackground articleMarginBottom marginTop25Perc">
-
-        </div>
-        <p class="positionPageFont">
-            4. Placer un élément <strong>absolute</strong> à l'interieur d'un bloc <strong>relative</strong> et un autre en dehors, avec superposition.
+<!-- 4eme exercice -->
+        <section class="relative containerHeight2">
+            <div class="relativeBigBox fontBold fontWhite">
+                relative
+                <div class="absSmallBox1 fontBold absolute">
+                abs in rel
+                </div>
+            </div>
+            <div class="absSmallBox2 fontBold absolutePos1 absolute">
+                abs2
+            </div>
+        </section>
+        <p>
+            4. Placez un élément <strong>absolute</strong> à l'interieur d'un bloc <strong>relative</strong> et un autre en dehors, avec superposition.
         </p>
-<!-- Exo 5 -->
-        <div class="articleFlexReduceForm articleBorder articlePadding3 articleBackground articleMarginBottom marginTop25Perc">
-
-        </div>
-        <p></p>
     </main>
     <footer>
         <span>C 2025 Pratique HTML/CSS</span>

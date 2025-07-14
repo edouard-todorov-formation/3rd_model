@@ -252,77 +252,139 @@ button:hover {
 /* _____________________ */
 /* positionnement */
 
+.positionStyleSheet {
+    font: caption;
+    font-size: 20px;
+    background-color: #F7F8FA;
+}
 
-.positionPageFont {
+
+
+.positionStyleSheet > section, div, p, strong {
+    font: caption;
+    font-size: 20px;
+    background-color: #F7F8FA;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.positionStyleSheet > section {
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #cfcfcf;
+    width: 25%;
+    margin: 40px auto;
+    padding: 40px;
+    position: relative;
+}
+
+.positionStyleSheet > p {
+    width: 25%;
+    margin: 80px auto 120px;
     text-align: center;
-    color: #A1A1A2;
-    max-width: 231px;
-    padding: 0px;
-    margin: 30px 0px;
 }
 
-.relativeBox {
-    background-color: #1E1E3C;
-    border-radius: 8px 8%;
-    color: white;
-    font-weight: 600;
-    font-size: 12px;
-    width: 90px;
-    height: 90px;
+.containerHeight1 {
+    height: 200px;
 }
 
-.relativeBoxSmall {
+.containerHeight2 {
+    height: 170px;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relativeBigBox {
     background-color: #1E1E3C;
-    border-radius: 8px 8%;
-    color: white;
-    font-weight: 600;
-    font-size: 12px;
-    width: 60px;
-    height: 60px;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relativeSmallBox {
+    background-color: #1E1E3C;
+    border-radius: 15px;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .absoluteBox {
     background-color: #FFD700;
-    border-radius: 7px 7%;
-    font-size: 12px;
-    font-weight: 600;
-    width: 50px;
-    height: 50px;
-}
-
-.absoluteBoxSmall {
-    background-color: #FFD700;
-    border-radius: 7px 7%;
-    font-size: 12px;
-    font-weight: 600;
-    width: 35px;
-    height: 35px;
-}
-
-.flex {
+    border-radius: 15px;
+    width: 90px;
+    height: 90px;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
 
-.relativPosition1 {
-    position: relative;
-    top: 10px;
-    left: 0px;
+.absSmallBox1 {
+    background-color: #FFD700;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.absolutePosition1 {
-    position: absolute;
-    top: 0px;
-    left: 500px;
-    right: 0px;
+.absSmallBox2 {
+    background-color: #FFD700;
+    border-radius: 15px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.absolutePosition2 {
-    position: absolute;
-    position: sticky;
-    top: 0px;
-    left: 500px;
-    right: 0px;
-    bottom: 500px;
+.absolutePos1 {
+    bottom: 30px;
+    right: 30px;
+}
+
+.absPos1 {
+    bottom: 100%;
+    left: 100%;
+    transform: translate(-100%, 100%);
+    margin: -40px;
+    
+}
+
+.absPos2 {
+    top: 100%;
+    right: 100%;
+    transform: translate(100%, -100%);
+    margin: -40px;
+}
+
+.absolutePos3 {
+    transform: translate(50%, 50%);
+    z-index: 2;
+}
+
+.fontBold {
+    font-weight: 610;
+}
+
+.fontWhite {    
+    color: white;
+}
+
+.blackFont {
+    color: black;
 }
